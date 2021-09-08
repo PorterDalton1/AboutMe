@@ -1,0 +1,106 @@
+.backgroundImage {
+    background-image: url(https://i.stack.imgur.com/7YKUD.jpg);
+    background-repeat: repeat;
+    position: absolute;
+    background-attachment: fixed;
+}
+
+.main {
+    margin-left: 25%;
+    margin-right: 25%;
+    position: relative;
+    background-color: #fffaeb;
+    padding-bottom: 5%;
+    margin-bottom: 10%;
+}
+.banner {
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    background-color: #614c08;
+    padding: 14px;
+}
+
+.headings {
+    border-bottom: 3px black;
+}
+
+h2 {
+    margin-top: 20px;
+    font-size: 30;
+    padding-top: 1%;
+}
+
+
+
+.selfie {
+    border: 2px solid black;
+    float: right;
+    height: 350px;
+    margin-top: 4%;
+    margin-right: 2%;
+    box-shadow: 2px 2px 4px #000000;;
+}
+
+#text {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+body {
+    font-family: Arial;
+    font-size: 12pt;
+
+}
+li a:link {
+    text-decoration:none";
+    /*onmouseover="style='text-decoration:underline'";*/
+    /*onmouseout="style='text-decoration:none'";*/
+}
+
+
+table{
+    text-align: center;
+    width: 70%;
+    table-layout: fixed;
+    background-color: whitesmoke;
+    margin-left: 15%;
+}
+
+table tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+table th{
+    border: none;
+}
+table td{
+    border: none;
+}
+.toprow {
+    background-color:darkblue;
+    color: white;
+}
+.time {
+    font-size: 17;
+    font-style: bold;
+    text-align: right;
+}
+
+.work {
+    background-color: mediumslateblue;
+}
+
+.class1 {
+    background-color: darkgreen;
+    color: white;
+}
+.class2 {
+    background-color: darkseagreen;
+}
+.class3 {
+    background-color: mediumaquamarine;
+}
+.class4 {
+    background-color: turquoise;
+}
